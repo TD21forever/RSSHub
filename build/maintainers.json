@@ -78,6 +78,9 @@
   "/0x80/blog": [
     "xnum"
   ],
+  "/10jqka/realtimenews/:tag?": [
+    "nczitzk"
+  ],
   "/141jav/:type/:keyword{.*}?": [
     "cgkings",
     "nczitzk"
@@ -375,6 +378,9 @@
   ],
   "/ajmide/:id": [
     "Fatpandac"
+  ],
+  "/alicesoft/information/:category?/:game?": [
+    "keocheung"
   ],
   "/alipan/files/:share_id/:parent_file_id?": [
     "DIYgod"
@@ -1880,7 +1886,8 @@
   ],
   "/douban/topic/:id/:sort?": [
     "LogicJake",
-    "pseudoyu"
+    "pseudoyu",
+    "haowenwu"
   ],
   "/douban/movie/ustop": [
     "DIYgod"
@@ -1889,7 +1896,9 @@
     "numm233",
     "nczitzk"
   ],
-  "/douban/people/:userid/status/:routeParams?": [],
+  "/douban/people/:userid/status/:routeParams?": [
+    "alfredcai"
+  ],
   "/douban/people/:userid/wish/:routeParams?": [
     "exherb"
   ],
@@ -4204,8 +4213,9 @@
   "/misskey/notes/featured/:site": [
     "Misaka13514"
   ],
-  "/misskey/users/notes/:username": [
-    "siygle"
+  "/misskey/users/notes/:username/:routeParams?": [
+    "siygle",
+    "SnowAgar25"
   ],
   "/misskon/posts/:routeParams?": [
     "Urabartin"
@@ -5812,7 +5822,9 @@
   "/sis001/author/:id?": [
     "keocheung"
   ],
-  "/sis001/forum/:id?": [],
+  "/sis001/forum/:id?": [
+    "TonyRL"
+  ],
   "/sjtu/gs/:type/:num?": [
     "dzx-dzx"
   ],
@@ -5917,6 +5929,9 @@
   ],
   "/sony/downloads/:productType/:productId": [
     "EthanWng97"
+  ],
+  "/sorrycc/": [
+    "KarasuShin"
   ],
   "/soundofhope/:channel/:id": [
     "Fatpandac"
@@ -6147,6 +6162,9 @@
   ],
   "/swpu/scs/:code": [
     "CYTMWIA"
+  ],
+  "/sycl/:feed?": [
+    "mocusez"
   ],
   "/syosetu/chapter/:id": [
     "huangliangshusheng"
