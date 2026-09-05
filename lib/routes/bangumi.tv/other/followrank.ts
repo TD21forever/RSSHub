@@ -1,5 +1,6 @@
-import { Route } from '@/types';
 import { load } from 'cheerio';
+
+import type { Route } from '@/types';
 import ofetch from '@/utils/ofetch';
 
 export const route: Route = {
@@ -27,10 +28,7 @@ export const route: Route = {
 };
 
 async function handler(ctx) {
-    let type = ctx.req.param('type');
-    if (!type || type === 'tv') {
-        type = 'anime';
-    }
+    const type = ctx.req.param('type');
     const url = `https://bgm.tv/${type}`;
 
     const response = await ofetch(url);
@@ -48,7 +46,7 @@ async function handler(ctx) {
                 ?.match(/url\((.*?)\)/)?.[1];
             const info = $item.find('small.grey').text();
             return {
-                title: $item.find('.title').text().trim(),
+                title: $item.find('.title').text(),
                 link,
                 description: `<img src="${imageUrl}"><br>${info}`,
             };
